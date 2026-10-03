@@ -579,31 +579,31 @@ Then the README will display them:
 
 ### Public Website
 
-![SahiPack Home](docs/screenshots/home.png)
+![SahiPack Home](docs/screenshots/home.png.png)
 
 ### Inspector Login
 
-![SahiPack Login](docs/screenshots/login.png)
+![SahiPack Login](docs/screenshots/login.png.png)
 
 ### Inspector Dashboard
 
-![SahiPack Dashboard](docs/screenshots/dashboard.png)
+![SahiPack Dashboard](docs/screenshots/dashboard.png.png)
 
 ### Package Inspection
 
-![SahiPack Inspection](docs/screenshots/inspection.png)
+![SahiPack Inspection](docs/screenshots/inspection.png.png)
 
 ### Initial Compliance Assessment
 
-![SahiPack Assessment](docs/screenshots/assessment.png)
+![SahiPack Assessment](docs/screenshots/assessment.png.png)
 
 ### Officer Verification
 
-![SahiPack Officer Verification](docs/screenshots/verification.png)
+![SahiPack Officer Verification](docs/screenshots/verification.png.png)
 
 ### Final Report
 
-![SahiPack Final Report](docs/screenshots/report.png)
+![SahiPack Final Report](docs/screenshots/report.png.png)
 
 > These image paths are intentionally relative to the repository. Once
 > you capture the actual deployed pages and save them with these names,
