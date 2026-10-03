@@ -724,9 +724,4 @@ into a unified inspection workflow.
 
 ------------------------------------------------------------------------
 
-## License
 
-This project was developed as a Smart India Hackathon project.
-
-Add the team's final license and attribution terms here if the
-repository is later released as open source.
