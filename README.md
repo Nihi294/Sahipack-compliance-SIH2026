@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="docs/assets/sahipack-banner.png"
+    src="docs/assets/SahiPack Compliance Intelligence Banner.png"
     alt="SahiPack - Legal Metrology Intelligence"
     width="100%"
   />
