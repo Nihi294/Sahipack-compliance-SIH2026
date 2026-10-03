@@ -1,3 +1,14 @@
+<p align="center">
+  <img
+    src="docs/assets/sahipack-banner.png"
+    alt="SahiPack - Legal Metrology Intelligence"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <strong>See the pack. Know the finding.</strong>
+</p>
 # SahiPack --- Legal Metrology Intelligence
 
 > **AI-assisted packaged commodity compliance screening for Legal
