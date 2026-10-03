@@ -10,9 +10,9 @@ const NAV_LINKS = [
 ];
 
 export default function Navbar() {
+  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
@@ -71,9 +71,20 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden lg:flex items-center gap-5">
-          <button className="text-sm text-cream/80 hover:text-gold transition-colors">
-            Inspector Login
-          </button>
+          <button
+  onClick={() => {
+    const token = localStorage.getItem("sahipack_token");
+
+    if (token) {
+      navigate("/dashboard");
+    } else {
+      navigate("/login");
+    }
+  }}
+  className="text-sm text-cream/80 hover:text-gold transition-colors"
+>
+  Inspector Login
+</button>
           <button
             onClick={() => navigate("/inspection")}
             className="inline-flex items-center gap-1.5 bg-gold text-navy px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-gold-dark transition-colors"
@@ -104,7 +115,20 @@ export default function Navbar() {
             </button>
           ))}
           <div className="h-px bg-white/10 my-1" />
-          <button className="text-left text-cream/80 text-base">Inspector Login</button>
+          <button
+  onClick={() => {
+    const token = localStorage.getItem("sahipack_token");
+
+    if (token) {
+      navigate("/dashboard");
+    } else {
+      navigate("/login");
+    }
+  }}
+  className="text-sm text-cream/80 hover:text-gold transition-colors"
+>
+  Inspector Login
+</button>
           <button
             onClick={() => {
               setOpen(false);
